@@ -1,7 +1,9 @@
 <template>
    <div class="topo">
-   <span class="titulo"> Rifa da gi</span>&nbsp;&nbsp;<span class="valor">Valor R$10,00</span> &nbsp;&nbsp;<span class="pix">Contato e Pix 11981627125</span>
+   <span class="titulo"> Rifa da gi</span><br><span class="valor">Valor R$10,00</span> <br><span class="pix">Pix 11 981627125</span><br>
+   <span class="contato">Contatos: 11 98162-7125 | 11 98677-1371 </span>
     <br>  <br>
+    
    </div>
 </template>
 
@@ -24,12 +26,17 @@ export default {
     font-size: 36px;
 }
 .valor{
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(70, 163, 240);
 }
 .pix{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
+    color: rgb(70, 163, 240);
+}
+.contato{
+      
+    font-size: 14px;
     color: rgb(70, 163, 240);
 }
 </style>
