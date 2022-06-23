@@ -1,9 +1,13 @@
-<template>
-  <div class="conteiner">
-    <Topo/>
-    <cadastrar/>
-    <buscar/>
-  </div>
+<template >
+
+
+    <div class="conteiner" >
+      <Topo />
+      <cadastrar /><br>
+      <buscar />
+    </div>
+  
+
 
 </template>
 
@@ -12,20 +16,19 @@ import cadastrar from "./components/Cadastrar.vue"
 import Buscar from "./components/Buscar.vue"
 import Topo from "./components/Topo.vue"
 export default {
- 
- components:{
-  cadastrar,
-  Buscar,
-  Topo
- }
+
+  components: {
+    cadastrar,
+    Buscar,
+    Topo
+  }
 }
 </script>
 
 <style scoped>
-.conteiner{
- width: 1200px;
- margin: auto;
- margin-top: 50px;
+.conteiner {
+
+margin: 5px;
 
 }
 </style>>

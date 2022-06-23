@@ -1,7 +1,7 @@
 <template>
   <div id="buscar">
       <div>
-     <b-table sort-by="numero" sortDesc striped hover :items="resultado" :fields="fields" ></b-table>
+     <b-table small sort-by="numero" sortDesc striped hover :items="resultado" :fields="fields" ></b-table>
   </div>
 
   </div>
