@@ -16,7 +16,7 @@
       <b-form-input  size="sm" v-model="numero" placeholder="Digite um numero disponivel de 1 a 100"></b-form-input>
     </b-col>
   </b-row>
-<div><b-button variant="outline-dark" @click="postar(),reloadPage() ">Cadastrar</b-button>
+<div><b-button variant="outline-dark" @click="postar(), reloadPage() ">Cadastrar</b-button>
 
 </div>
 
@@ -37,8 +37,8 @@ export default {
         }
     },
     methods: {
-        postar() {
-            axios.post("https://rifagi.herokuapp.com/api/rifa",
+      async  postar() {
+          await  axios.post("https://rifagi.herokuapp.com/api/rifa",
                 {
                     numero: this.numero,
                     nome: this.nome
