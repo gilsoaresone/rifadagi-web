@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <img src="../assets/rifa.jpg" alt="">
+        <img src="../assets/spaFlayer.jpg" alt="">
     </div>
 </template>
 
